@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"  # Match your local version
+  GATSBY_CPU_COUNT = "1"  # Prevents OOM errors
